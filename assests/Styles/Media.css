@@ -1,0 +1,277 @@
+/* 430 px */
+@media screen and (max-width: 430px) {
+    .content h1 {
+        font-size: 34px;
+        line-height: 33px;
+    }
+
+    .content p {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .custom-button {
+        padding: 8px 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .robo-content {
+        height: 10%;
+    }
+
+    .robo {
+        height: 100%;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .content-main h1 {
+        font-size: 25px;
+    }
+
+    .content-main p {
+        font-size: 16px;
+    }
+
+    .group-1,
+    .group-2 {
+        margin-top: 10px;
+
+        .group-1 .l-img {
+            width: 90%;
+        }
+
+        .group-1 .r-img {
+            width: 90%;
+        }
+
+        .group-1,
+        .group-2,
+        .img-overlay {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        .group-2 .vec-1,
+        .group-2 .vec-2 {
+            margin-left: 0;
+            width: 90%;
+        }
+
+        .img-overlay {
+            left: 25px;
+            width: 50%;
+        }
+
+        .panda-sect {
+            padding: 10px;
+        }
+
+        .panda-sect .custom-button1 {
+            padding: 7px 40px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .cards .card {
+            margin: 10px;
+            
+        }
+
+        .cards .card-title {
+            font-size: 20px;
+        }
+
+        .cards .card-text {
+            font-size: 15px;
+        }
+
+        .supp-integ {
+            margin-top: 5rem;
+        }
+
+        #card-images .card {
+            margin: auto;
+            width: 100%;
+        }
+
+        .botm-btn {
+            margin-top: 40px;
+            border: 2px solid black;
+        }
+
+        .botm-btn .btn {
+            width: 70%;
+            font-size: 14px;
+            padding: 8px 10px;
+        }
+
+        .foot-img img {
+            display: none;
+        }
+
+
+
+        .footer {
+            padding: 20px 0;
+
+        }
+
+
+
+
+        .footer-text,
+        .footer-links {
+            margin-bottom: 5px;
+        }
+
+        .footer-text .dots {
+            font-size: 9px;
+        }
+
+        .footer-bottom ul li {
+            font-size: 15px;
+            margin: 0 5px;
+        }
+
+        .hola {
+            position: absolute;
+            background-image: url(/assests/Images/Ellipse\ 2.png);
+            filter: blur(100px);
+            right: 0;
+            top: 400px;
+            height: 400px;
+        }
+
+
+        .sideblur {
+            position: absolute;
+            background-image: url(/assests/Images/Ellipse\ 3.png);
+            filter: blur(100px);
+            left: 0;
+            width: 42%;
+            height: 670px;
+            top: 1100px;
+        }
+
+    }
+}
+
+
+
+
+/* 375px */
+@media screen and (max-width: 375px) {
+
+    .cards .card {
+        margin: 10px;
+        
+    }
+
+    .cards .bg-btn {
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+
+    .footer-bottom .copyright {
+        font-size: 13px;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .sideblur {
+        position: absolute;
+        background-image: url(/assests/Images/Ellipse\ 3.png);
+        filter: blur(100px);
+        left: 0;
+        width: 36%;
+        height: 670px;
+        top: 1100px;
+    }
+    .panda-sect .custom-button1 {
+        padding: 7px 40px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .botm-btn .btn {
+        width: 60%;
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    
+    
+    .footer-text .dots {
+        font-size: 10px;
+    }
+
+
+}
+
+/* 332px */
+
+@media screen and (max-width: 332px) {
+    .panda-sect .custom-button1 {
+        font-size: 13px;
+    }
+
+}
+
+
+/* 767px */
+@media screen and (max-width: 767px) {
+
+    .group-1,
+    .group-2 {
+        margin-top: 10px;
+    }
+
+    .group-1 .l-img {
+        width: 90%;
+
+    }
+
+    .group-1 .r-img {
+        width: 90%;
+
+    }
+
+    .group-1,
+    .group-2,
+    .img-overlay {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .group-2 .img-overlay {
+        width: 50%;
+        left: 30px;
+    }
+
+
+    .group-2 .vec-1,
+    .group-2 .vec-2 {
+        margin-left: 10px;
+        width: 70%;
+    }
+    .cards .card {
+        margin: 10px;
+        
+    }
+
+    #card-images .card {
+        margin: auto;
+        width: 100%;
+    }
+
+    .foot-img img {
+        display: none;
+    }
+
+}
