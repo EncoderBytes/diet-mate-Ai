@@ -358,27 +358,26 @@ const Questionnaire = () => {
         </div>
       ) : (
         <div className="m-auto w-11/12">
-          <h2>Your Diet Plan Is</h2>
-          {/* <ul>
-            {Object.entries(answers).map(([question, answer], index) => (
-              <li key={index}>
-                <strong>{question}:</strong> {answer}
-              </li>
-            ))}
-          </ul> */}
-          {result && (
-            <div
-              dangerouslySetInnerHTML={convertToHTML(result)}
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline overflow-y-auto h-[380px]"
-            />
+          {result ? (
+            <>
+
+              <h2 className="text-xl font-bold mb-3">Your Diet Plan Is:</h2>
+              <div
+                dangerouslySetInnerHTML={convertToHTML(result)}
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline overflow-y-auto h-[380px]"
+              />
+              <button
+                type="button"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-3"
+                onClick={handleGeneratePDF}
+              >
+                Generate Report In PDF For Diet Plan
+              </button>
+            </>
+          ) : (
+            <p className="text-lg font-bold">Your result is generating...</p>
           )}
-          <button
-            type="button"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-3"
-            onClick={handleGeneratePDF}
-          >
-            Generate Report In PDF For Diet Plan
-          </button>
+
         </div>
       )}
     </div>
